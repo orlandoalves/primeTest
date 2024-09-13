@@ -1,0 +1,33 @@
+{
+    "name": "automation",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "\"echo \\\"Error: no test specified\\\" && exit 1\"",
+        "cypress:open": "cypress open"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@faker-js/faker": "^9.0.0",
+        "automation": "file:",
+        "cypress-downloadfile": "^1.2.4",
+        "cypress-file-upload": "^5.0.8",
+        "faker": "^6.6.6",
+        "js-yaml": "^4.1.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.25.2",
+        "@babel/preset-env": "^7.25.4",
+        "cypress": "^7.7.0",
+        "cypress-cucumber-preprocessor": "^4.2.0",
+        "cypress-keycloak-commands": "^1.2.0"
+    },
+    "compilerOptions": {
+        "types": [
+            "cypress",
+            "cypress-file-upload"
+        ]
+    }
+}
